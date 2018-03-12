@@ -1150,7 +1150,7 @@ server = function(input, output,session) {observeEvent(input$do, {
   statecrime(indiacrime, i, "Total (All-India)","Total crimes against women")
   
   
-  setwd("C:/Users/DELL/Desktop/output")
+  setwd("./output")
   superbowl <- read.table(
     "Allcrimes .txt", 
     sep=",", header=TRUE)
